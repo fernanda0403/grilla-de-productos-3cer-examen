@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(138, 93, 26);
+  color: ghostwhite
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --base: #032CA6;
+  --sombra-base: #241FBF;
+  --luz-base: #3269D9;
+
+  --negro: #3B2559;
+  --blanco: #F2B33D;
+
+/*  */
+
+  --padding-chico: 1rem;
+  --padding-normal: 1.5rem;
+  --padding-grande: 2rem;
+
+  /*  */
+
+  --gap-chico: 12px;
+}
