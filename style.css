@@ -1,6 +1,7 @@
 body {
-  background-color: rgb(138, 93, 26);
-  color: ghostwhite
+  background-color: var(--fondo);
+  color: var(--blanco);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -10,6 +11,8 @@ body {
 }
 
 :root {
+  --fondo: #1B2833;
+
   --base: #032CA6;
   --sombra-base: #241FBF;
   --luz-base: #3269D9;
@@ -17,7 +20,7 @@ body {
   --negro: #3B2559;
   --blanco: #F2B33D;
 
-/*  */
+  /*  */
 
   --padding-chico: 1rem;
   --padding-normal: 1.5rem;
@@ -25,5 +28,31 @@ body {
 
   /*  */
 
-  --gap-chico: 12px;
+  --gap-chico: 1rem;
+  --gap-normal: 1.5rem;
+  --gap-grande: 2rem;
 }
+
+.contenedor {
+  display: grid;
+
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 12px;
+  grid-auto-rows: 200px;
+  grid-auto-flow: column;
+  grid-auto-columns: 50px;
+
+  background-color: rgb(70, 158, 158);
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.texto {}
+
+.boton {}
