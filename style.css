@@ -107,3 +107,20 @@ body {
   border-radius: 10%;
   font-size: var(--letra-maschico);
 }
+
+
+/* media queries */
+
+/* Tablets => 1023px */
+
+@media screen and (max-width: 1023px) {
+  .cotenedor {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* mobile => 435px */
+
+@media screen and (max-width: 435px) {
+ .cotenedor {
+  grid-template-columns: 1fr;
+ }
